@@ -15,3 +15,16 @@ This repository contains the code for my personal portfolio website, showcasing 
   - JavaScript
   - Hosted on [GitHub Pages / Any Hosting Platform]
 
+📷 Screenshots
+
+🌐 Live Demo
+Check out the live version of my portfolio here: 
+
+📬 Contact
+Feel free to reach out for collaborations or inquiries:
+
+Email: jrrahuldsq7@gmail.com
+LinkedIn: https://www.linkedin.com/in/rahul-sainath-jonna-11a106250/
+GitHub: https://github.com/Rahul2817
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
