@@ -1,0 +1,39 @@
+let header = document.querySelector("header");
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+let linkedin = document.querySelector(".linkedin");
+let github = document.querySelector(".github");
+let instagram = document.querySelector(".instagram");
+const linkedinProfileURL = "https://www.linkedin.com/in/rahul-sainath-jonna-11a106250/";
+const GithubProfileURL = "https://github.com/prince2817";
+const instagramProfileURL = "https://www.instagram.com/rahul_sai_28.07/";
+window.addEventListener("scroll", () => {
+    header.classList.toggle("shadow", window.scrollY > 0);
+});
+menu.onclick = () => {
+    navbar.classList.toggle("active");
+};
+linkedin.onclick = () => {
+    window.open(linkedinProfileURL, '_blank');
+}
+github.onclick = () => {
+    window.open(GithubProfileURL, '_blank');
+}
+instagram.onclick = () => {
+    window.open(instagramProfileURL, '_blank');
+}
+window.onscroll = () => {
+    navbar.classList.remove("active");
+};
+// Dark Mode / light mode
+let darkmode = document.querySelector("#darkmode");
+darkmode.onclick = () => {
+    if (darkmode.classList.contains("bx-moon")) {
+        darkmode.classList.replace("bx-moon", "bx-sun");
+        document.body.classList.add("active");
+    }
+    else {
+        darkmode.classList.replace("bx-sun", "bx-moon");
+        document.body.classList.remove("active");
+    }
+}
