@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAHUL SAINATH - Software Developer</title>
+    <link rel="icon" type="image/x-icon" href="/image/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/image/favicon.ico" />
+    <meta name="description"
+        content="Rahul Sainath is a proficient software developer with expertise in Fullstack web development">
+    <meta name="keywords"
+        content="rahul, portfolio, shivang, full stack dev, portfolio design, portfolio website, personal portfolio">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons@2.0.0-beta.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Port<span>Folio.</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#section-skill">Skills</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class="bx bxl-linkedin linkedin"></i></a>
+            <a href="#"><i class="bx bxl-github github"></i></a>
+            <a href="#"><i class="bx bxl-instagram instagram"></i></a>
+        </div>
+        <div class="home-img">
+            <img class="hero user-image" src="user.jpg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Rahul Sainath</h1>
+            <h2>I am into <span class="role"></span> </h2>
+            <p>A highly motivated and adaptable Software Development Engineer skilled in Java, Python 
+                with experience in web development. 
+                Passionate about solving problems, optimizing solutions, and learning new technologies.
+                 Seeking a challenging role to apply and grow my technical skills.</p>
+            <a href="Resume_Rahul.pdf" class="btn">Download CV</a>
+            <div class="btn-pink" id="btn" onclick="redirectToContact()">Hire me</div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img class="hero" src="user.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <p>I'm Rahul Sainath, a dedicated computer science student passionate about creating engaging digital
+                    experiences. With a solid foundation in front-end technologies, I blend creativity and technical
+                    expertise. Motivated by curiosity ,I strive to deepen my insights into web development, consistently
+                    expanding my knowledge.I possess strong problem-solving skills and versatility. Committed to continual learning, my work ethic and
+                    dedication make me an ideal candidate for any organization seeking a motivated individual. count it
+                    how many words is it.<br><br></p>
+                <h3>Education :</h3>
+                <br>
+                <h4>B.Tech - Sree Vidyanikethan Engineering College,Tirupati </h4>
+                <p>CGPA  : 8.9  </p>
+                <h4>Intermediate - Nucleus Junior College,Nandyal</h4>
+                <p>Percentage  : 96% </p>
+                <h4>SSC - Good Shepherd E M School,Nandyal</h4>
+                <p>GPA   : 9.8</p>
+                <br>
+                <!--<div class="information">
+                    <div class="info-box">
+                        <i class="bx bxs-user"></i>
+                        <span>Rahul Sainath</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxl-gmail'></i>
+                        <span>jrrahulds17@gmail.com</span>
+                    </div>
+                </div>-->
+                
+            </div>
+        </div>
+    </section>
+    <section class="section-skill" id="section-skill">
+        <header class="header-skill">
+            My Skills
+        </header>
+        <div class="skill">
+            <div class="set">
+                <span class="fas fa-globe"></span>
+                <h2 class="header-skill">Web Development</h2>
+                <div class="list">
+                    <label>HTML5</label>
+                    <i class="fab fa-html5 fa-2x"></i>
+                </div>
+                <div class="list">
+                    <label>CSS3</label>
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                </div>
+                <div class="list">
+                    <label>JavaScript</label>
+                    <i class="fab fa-js fa-2x"></i>
+                </div>
+                <div class="list">
+                    <label>MySQL</label>
+                    <i class="cib-mysql fa-2x"></i>
+                </div>
+            </div>
+            <div class="set">
+                <span class="fas fa-code"></span>
+                <h2 class="header-skill">Languages</h2>
+                <div class="list">
+                    <label>Java</label>
+                    <i class="fab fa-java fa-lg"></i>
+                </div>
+                <div class="list">
+                    <label>Python</label>
+                    <i class="fab fa-python fa-lg"></i>
+                </div>
+                <div class="list">
+                    <label>C/C++</label>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                        <path fill="#00549d" fill-rule="evenodd"
+                            d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z"
+                            clip-rule="evenodd"></path>
+                        <path fill="#0086d4" fill-rule="evenodd"
+                            d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z"
+                            clip-rule="evenodd"></path>
+                        <path fill="#fff" fill-rule="evenodd"
+                            d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z"
+                            clip-rule="evenodd"></path>
+                        <path fill="#0075c0" fill-rule="evenodd"
+                            d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z"
+                            clip-rule="evenodd"></path>
+                        <path fill="#fff" fill-rule="evenodd" d="M31 21H33V27H31zM38 21H40V27H38z" clip-rule="evenodd">
+                        </path>
+                        <path fill="#fff" fill-rule="evenodd" d="M29 23H35V25H29zM36 23H42V25H36z" clip-rule="evenodd">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="set">
+                <span class="fas fa-code"></span>
+                <h2 class="header-skill">Others</h2>
+                <div class="list">
+                    <label>Git</label>
+                    <i class="fab fa-git fa-lg"></i>
+                </div>
+                <div class="list">
+                    <label>GitHub</label>
+                    <i class="fab fa-github fa-lg"></i>
+                </div>
+                <div class="list">
+                    <label>Netlify</label>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                        style="fill: rgba(0, 0, 0, 1);">
+                        <path
+                            d="M17.13 9.68 22 11.8v-.11c-.07-.24-.28-.45-.7-.87l-2-2-2.07.87zM12.2 7.24a1.31 1.31 0 0 1 .16.47l3 1.29a1.11 1.11 0 0 1 .29-.14l.48-3-2-2-1.95 3.3s0 .05.02.08zM10.61 7a1.1 1.1 0 0 1 1-.2h.05l2.16-3.34-.66-.66c-.42-.42-.63-.63-.87-.7a1 1 0 0 0-.63 0c-.24.07-.45.28-.87.7l-3 3c.31.14 2.5 1.06 2.78 1.19zm-3.12 5.29h.27a1.45 1.45 0 0 1 .29 0l2.38-3.68v-.06a1 1 0 0 1-.27-.95L9 7l-1.7-.73L5 8.61l2.51 3.66zm7.62-2.44v-.08a.59.59 0 0 1 0-.14l-2.86-1.27h-.05a1.05 1.05 0 0 1-.88.47h-.17s-.05 0-.06.05L8.73 12.5v.05l6.33-2.7s.05.02.05 0zm1.36-.91a.83.83 0 0 1 .26.19l2-.84-1.89-1.87-.4 2.47zm-2.29 5.54A.91.91 0 0 1 15 14v-.05l.54-3.37-.09-.08L9 13.15a2.76 2.76 0 0 1 .08.27zM2 11.95zm12.14 3.18L8.92 14v.06L13.47 21l.42-.43c.15-.92.71-4.33.78-4.72a.9.9 0 0 1-.53-.72zm1.65.32a.88.88 0 0 1-.36.27l-.64 3.94L18.43 16zm1.07-5.13a.07.07 0 0 0-.06 0 .92.92 0 0 1-.61.34v.06l-.55 3.4a.88.88 0 0 1 .34.62h.06l2.95.61 2.28-2.28a4.22 4.22 0 0 0 .65-.74zM8.3 14.59a1.27 1.27 0 0 1-.86 0l-1.22 1.9 4.69 4.68a2.68 2.68 0 0 0 .87.71 1 1 0 0 0 .63 0 1.86 1.86 0 0 0 .7-.54l-4.69-6.8zm4.71 6.82zm-6.62-7.82s.06 0 .06-.05 0 0-.06 0l-4.14-.86a7.07 7.07 0 0 0 .51.54l1.36 1.36 2.27-1zm.28-.66a1.05 1.05 0 0 1 .2-.27v-.06C6.1 11.4 5.3 10.24 4.5 9.07l-1.75 1.75c-.42.42-.63.63-.7.87A.75.75 0 0 0 2 12l4.67 1zm.17 1.33a.61.61 0 0 1-.07-.1L4.59 15l1.08 1.1 1.17-1.82s.01-.02 0-.02z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+        <div class="services-container">
+            <div class="services-container-1" id="services-container-id-1">
+                <div id="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Library Management System</h3>
+                    <span class="more">Welcome to my web development services! With a passion for crafting seamless
+                        digital experiences, I specialize in creating responsive and user-friendly websites. From
+                        dynamic e-commerce platforms to engaging personal blogs, I leverage the latest technologies to
+                        bring your vision to life. Let's collaborate to build a powerful online presence for you!</span>
+                    <a href="#services-container-id-1" class="myBtn-1">Learn More</a>
+                </div>
+            </div>
+            <div class="services-container-1" id="services-container-id-2">
+                <div id="services-box">
+                    <i class="bx bx-server"></i>
+                    <h3>Backend Development</h3>
+                    <span class="more">In the realm of backend development, I specialize in crafting robust and
+                        efficient solutions that power seamless and dynamic web applications. Leveraging my expertise in
+                        programming languages like Python, Node.js, and databases such as MongoDB and MySQL, I ensure
+                        the backbone of your digital presence is secure, scalable, and performs optimally.</span>
+                    <a href="#services-container-id-2" class="myBtn-1">Learn More</a>
+                </div>
+            </div>
+            <div class="services-container-1" id="services-container-id-3">
+                <div id="services-box">
+                    <i class='bx bxs-cog'></i>
+                    <h3>Invoice Generator</h3>
+                    <span class="more">As a skilled software engineer, I bring proficiency in developing robust and
+                        scalable solutions. With expertise in diverse technologies and a passion for problem-solving, I
+                        craft innovative software that meets client needs. From concept to deployment, my commitment to
+                        excellence ensures the delivery of high-quality, efficient, and cutting-edge software
+                        solutions.</span>
+                    <a href="#services-container-id-3" class="myBtn-1">Learn More</a>
+                </div>
+            </div>
+            <div class="services-container-1" id="services-container-id-4">
+                <div id="services-box">
+                    <i class='bx bxl-android'></i>
+                    <h3>App Development</h3>
+                    <span class="more">Unlock the potential of your ideas with our personalized app development
+                        services. We specialize in crafting custom applications that resonate with your vision. From
+                        concept to deployment, we ensure a seamless process, delivering user-friendly and impactful
+                        solutions tailored to your unique requirements. Transform your digital dreams into reality with
+                        our dedicated app development expertise.</span>
+                    <a href="#services-container-id-4" class="myBtn-1">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container contact-container" data-aos="fade-up">
+            <div class="contact-row">
+                <div class="contact-leftside">
+                    <h1 class="main-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jrrahulds17@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i> +91 9381154701</p>
+                    <p>
+                        <b>Don't Be Shy </b>Feel free to get in touch with me. I am always open to discussing new
+                        projects, creative ideas, or opportunities to be part of your visions.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rahul-sainath-jonna-11a106250/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/prince2817" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://medium.com/@chinthakapathum0618" target="_blank"><i
+                                class="fa-brands fa-medium"></i></a>
+                    </div>
+                </div>
+                <form action="https://formsubmit.co/a74f5f6eb927d974f9ca58c24642f80b" method="POST"
+                    class="contact-rightside">
+                    <input type="text" name="name" placeholder="Your name" required />
+                    <input type="email" name="email" placeholder="Your e-mail" required />
+                    <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Rahul's Portfolio</h3>
+                    <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/><br/> Keep Rising 🚀. Connect with me over live chat!</p>
+                </div>
+    
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                    <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+                    <a href="#section-skill"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+                    <a href="#about"><i class="fas fa-chevron-circle-right"></i> Education</a>
+                    <a href="#services"><i class="fas fa-chevron-circle-right"></i> Work</a>
+                </div>
+    
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +91 XXX-XXX-XXX</p>
+                    <p><i class="fas fa-envelope"></i> jrrahulds17@gmail.com</p>
+                    <p><i class="fas fa-map-marked-alt"></i> Nandyal, India-518501</p>
+                    <div class="share">
+                        <a href="https://www.linkedin.com/in/rahul-sainath-jonna-11a106250/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                        <a href="https://github.com/prince2817" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                        <a href="mailto:jrrahulds17@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                        <a href="https://twitter.com/rahulsai07" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/rahul-sainath-jonna-11a106250/"> Rahul</a></h1>
+        </div>
+        
+    </section>
+    <div class="copyright">
+        &#169; PortFolio | All Right Reserved
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Software Developer",
+                "Full Stack Developer",
+                "Web Developer",
+                "Backend Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+        function redirectToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+        $(document).ready(function () {
+            $(".myBtn-1").click(function () {
+                $(this).prev().toggle();
+                if ($(this).text() == 'Learn More') {
+                    $(this).text('Learn Less');
+                }
+                else {
+                    $(this).text('Learn More');
+                }
+            })
+        });
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyfl8w4U_XNJiaJOfX57iSsiuKjxDafRNaSwlp1wSuIY47X3ZWHsZzCJg_I5n5MjE7W/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const success = document.getElementById('success');
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    success.innerHTML = "data successfully submit";
+                    setTimeout(function () {
+                        success.innerHTML = "";
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+        window.onload = function () {
+            var redirectTo = "index.html";
+            if (performance.navigation.type == 1) {
+                window.location.href = redirectTo;
+            }
+        }
+    </script>
+</body>
+
+</html>
